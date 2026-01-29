@@ -1,0 +1,17 @@
+# TeamTrack – root
+
+# Environment and secrets (if ever at root)
+.env
+.env.local
+.env.*.local
+
+# IDE / editor
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
