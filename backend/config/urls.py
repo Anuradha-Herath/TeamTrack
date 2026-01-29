@@ -10,6 +10,5 @@ urlpatterns = [
     path("api/v1/auth/", include("apps.users.urls_auth")),
     path("api/v1/users/", include("apps.users.urls_users")),
     path("api/v1/projects/", include("apps.projects.urls")),
-    # Future: tasks, dashboard
-    # path("api/v1/", include("apps.dashboard.urls")),
+    path("api/v1/dashboard/", include("apps.dashboard.urls")),
 ]
